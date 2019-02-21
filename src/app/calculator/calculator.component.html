@@ -1,0 +1,25 @@
+<div style="text-align:center">
+	<div class="rock">
+	  <div class="star">
+		
+
+			<h2>CALCULATOR</h2>
+
+			<input [(ngModel)]='num1' type="number" name="num1">
+			<br>
+			<br>
+			<input [(ngModel)]='num2' type="number" name="num2">
+			<br>
+			<p>Pilih Operasi Hitung</p>
+			<button (click)="jumlah()">+</button>&nbsp;
+			<button (click)="kurang()">-</button>&nbsp;
+			<button (click)="kali()">x</button>&nbsp;
+			<button (click)="bagi()">/</button>
+
+			<!-- <p><b>Angka Pertama {{num1}} dan Angka Kedua {{num2}} : </b> <b>{{result}}</b></p> -->
+
+			<p><b>{{result}}</b></p>
+			
+	  </div>
+	</div>
+</div>
